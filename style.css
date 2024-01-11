@@ -1,0 +1,273 @@
+:root{
+    --Electric : #ffc107; 
+    --Ground : #b0742c; 
+    --Rock : #4a190a; 
+    --Ice : #98D8D8; 
+    --Psychic : #F85888; 
+    --Dragon : #46919e; 
+    --Dark : #5b5a7b; 
+    --Steel : #607b70; 
+    --Fairy : #EE99AC; 
+    --Ghost : #34336e; 
+    --Fighting : #9e451b; 
+    --Normal : #74585f;
+}
+body{
+  text-transform: capitalize;
+}
+.card {
+    width: 25rem;
+}
+.card-img-top {
+    transition: all 0.5s ease-in-out;
+    
+    height: 20rem;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    margin: 10px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Estilos para los botones con fondo de color */
+.btn-primary {
+  color: #fff;
+  background-color: #0e833e;
+  border-color: #0e833e;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+/* Estilos para los botones con borde de color */
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-success {
+  color: #198754;
+  border-color: #198754;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-outline-info {
+  color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-dark {
+  color: #212529;
+  border-color: #212529;
+}
+
+/* Estilos para los botones con fondo de color personalizado */
+.btn-electric {
+  color: #fff;
+  background-color: var(--Electric);
+  border-color: var(--Electric);
+}
+
+.btn-ground {
+  color: #fff;
+  background-color: var(--Ground);
+  border-color: var(--Ground);
+}
+
+.btn-rock {
+  color: #fff;
+  background-color: var(--Rock);
+  border-color: var(--Rock);
+}
+
+.btn-ice {
+  color: #fff;
+  background-color: var(--Ice);
+  border-color: var(--Ice);
+}
+
+.btn-psychic {
+  color: #fff;
+  background-color: var(--Psychic);
+  border-color: var(--Psychic);
+}
+
+.btn-dragon {
+  color: #fff;
+  background-color: var(--Dragon);
+  border-color: var(--Dragon);
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: var(--Dark);
+  border-color: var(--Dark);
+}
+
+.btn-steel {
+  color: #fff;
+  background-color: var(--Steel);
+  border-color: var(--Steel);
+}
+
+.btn-fairy {
+  color: #fff;
+  background-color: var(--Fairy);
+  border-color: var(--Fairy);
+}
+
+.btn-ghost {
+  color: #fff;
+  background-color: var(--Ghost);
+  border-color: var(--Ghost);
+}
+
+.btn-fighting {
+  color: #fff;
+  background-color: var(--Fighting);
+  border-color: var(--Fighting);
+}
+
+.btn-normal {
+  color: #fff;
+  background-color: var(--Normal);
+  border-color: var(--Normal);
+}
+
+/* Estilos para los botones con borde de color personalizado */
+.btn-electric:hover  {
+  color: var(--Electric);
+  border-color: var(--Electric);
+}
+
+.btn-ground:hover  {
+  color: var(--Ground);
+  border-color: var(--Ground);
+}
+
+.btn-rock:hover  {
+  color: var(--Rock);
+  border-color: var(--Rock);
+}
+
+.btn-ice:hover  {
+  color: var(--Ice);
+  border-color: var(--Ice);
+}
+
+.btn-psychic:hover  {
+  color: var(--Psychic);
+  border-color: var(--Psychic);
+}
+
+.btn-dragon:hover  {
+  color: var(--Dragon);
+  border-color: var(--Dragon);
+}
+
+.btn-dark:hover  {
+  color: var(--Dark);
+  border-color: var(--Dark);
+}
+
+.btn-steel:hover  {
+  color: var(--Steel);
+  border-color: var(--Steel);
+}
+
+.btn-fairy:hover  {
+  color: var(--Fairy);
+  border-color: var(--Fairy);
+}
+
+.btn-ghost:hover  {
+  color: var(--Ghost);
+  border-color: var(--Ghost);
+}
+
+.btn-fighting:hover  {
+  color: var(--Fighting);
+  border-color: var(--Fighting);
+}
+
+.btn-normal:hover {
+  color: var(--Normal);
+  border-color: var(--Normal);
+}
